@@ -1,1 +1,1 @@
-![과제 영상](./assets/insta_clone_play.gif)
+![과제 영상](./src/assets/insta_clone_play.gif)
