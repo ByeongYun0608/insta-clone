@@ -1,0 +1,83 @@
+.feedpage-outer {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.feedpage-inner {
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px;
+}
+
+.feedpage-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  gap: 40px;
+}
+
+.feedpage-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.feedpage-profile-text {
+  text-align: left;
+}
+
+.feedpage-title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.feedpage-desc {
+  color: #888;
+  margin: 8px 0;
+}
+
+.feedpage-count {
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+.feedpage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.feedpage-card {
+  padding: 16px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.feedpage-card-img {
+  width: 50%;
+  margin-bottom: 12px;
+  object-fit: cover;
+}
+
+.feedpage-card-title {
+  margin: 8px 0 4px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.feedpage-card-content {
+  color: #666;
+  font-size: 15px;
+  margin: 0;
+}

@@ -1,0 +1,39 @@
+.comment-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.comment-list-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.comment-list-nickname {
+  font-weight: bold;
+  min-width: 48px;
+  margin-right: 8px;
+  color: #222;
+}
+
+.comment-list-content {
+  flex: 1;
+  color: #222;
+  word-break: break-all;
+}
+
+.comment-list-delete-btn {
+  margin-left: 12px;
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 0;
+  min-width: 48px;
+}
